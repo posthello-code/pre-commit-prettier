@@ -1,10 +1,10 @@
 - id: prettier
   name: prettier
   description: ""
-  entry: prettier --write --ignore-unknown
+  entry: prettier --write --ignore-unknown --single-quote=false
   language: node
-  "types": [text]
+  types: [file]
   args: []
   require_serial: false
-  additional_dependencies: ["prettier@4.0.0-alpha.9"]
+  additional_dependencies: ["prettier@3.3.3"]
   minimum_pre_commit_version: "0"
